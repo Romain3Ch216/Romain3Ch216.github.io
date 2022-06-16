@@ -113,6 +113,10 @@ section {
     font-weight: normal;
 }
 
+.publications > ul > li > a{
+    text-decoration: none;
+}
+
 aside {
     flex: 0 1 320px;
     box-sizing: border-box;
@@ -326,6 +330,8 @@ a:active, a:focus {
     color: #ef6461;
 
 }
+
+
 
 /* Fonts */
 
