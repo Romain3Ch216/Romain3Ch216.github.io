@@ -120,7 +120,7 @@ section {
 aside {
     flex: 0 1 320px;
     box-sizing: border-box;
-    padding: 0px 15px 0px 5px;
+    padding: 50px 15px 0px 5px;
     margin-top: 0.2em;
 }
 
@@ -229,7 +229,7 @@ h2 {
 body {
     background-color: #F5F5F5;
     font-family: 'OpenSans';
-    font-size: 0.9em;
+    font-size: 1.05em;
     padding: 0px;
     margin: 0px;
 }
@@ -264,7 +264,8 @@ h3 {
 
 .content {
     flex: 1;
-    padding: 0px 10px 0px 10px;
+    padding: 50px 10px 0px 50px;
+    text-align: justify;
 }
 
 a.invisible {
