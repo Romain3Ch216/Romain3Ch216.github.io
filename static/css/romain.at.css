@@ -296,7 +296,9 @@ a.invisible {
 #publications:target ~.publications,
 #teaching:target ~.teaching,
 #resume:target ~.resume,
-#about:target ~.about
+#about:target ~.about,
+#supervision:target ~.supervision,
+#tutorials:target ~.tutorials
 
 {
     opacity: 1;
