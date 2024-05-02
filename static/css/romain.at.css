@@ -267,6 +267,12 @@ h3 {
     text-align: justify;
 }
 
+.content-full-page {
+    flex: 1;
+    padding: 10px 10px 0px 10px;
+    text-align: justify;
+}
+
 a.invisible {
     position: absolute;
     top: 0;
@@ -333,7 +339,11 @@ a:active, a:focus {
 
 }
 
-
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700
+}
 
 /* Fonts */
 
