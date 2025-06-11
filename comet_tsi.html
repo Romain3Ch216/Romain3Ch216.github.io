@@ -12,11 +12,14 @@
     <div class="flex-container">
         <section>
             <h1>COMET TSI scientific seminars</h1>
+            <img src="static/img/Earth_from_Space_Waza_National_Park_Cameroon.jpg" alt="Earth from Space - Waza National Park Cameroon - ESA.jpge" 
+        width="1000em" style="border-style: none">
+        <p style="font-size: 11px">Credit: ESA, modified Sentinel data (2024), processed by ESA. </p>
         </section>
     </div>
     <div class="content-marg">
         <p>
-            The <a href="https://www.comet-cnes.fr/tsi" target="_blank">COMET Signal and Image Processing community</a> is a community of expert initiated 
+            The <a href="https://www.comet-cnes.fr/tsi" target="_blank">COMET Signal and Image Processing community</a> is a community of experts initiated 
             by <a href="https://cnes.fr/fr" target="_blank">CNES</a>, the French spatial agency, in order to gather academic researchers and engineers 
             from the space industry in France. <br> <br>
             The scientifc seminars are held by videoconference every month or so. 
@@ -24,6 +27,27 @@
             Past seminars are listed below:
         </p>
         <ul>
+            <li class="wo">
+                <details>
+                    <summary>
+                        #10 | June 17 2025,
+                        <strong>Satellite image restoration with compressive variational autoencoders and uncertainty quantification</strong>,
+                        <em>Maud Biquard (ISAE-SUPAERO / CNES).</em>
+                    </summary>
+                    <p><em>Neural networks have been successfully applied to image restoration tasks. 
+                        The standard approach directly learns to predict the restored image from the degraded one in a supervised manner. 
+                        However, such methods are often unsuitable for satellite image restoration, as they lack interpretability and require retraining for 
+                        each specific sensor. Alternative approaches leverage neural networks to learn a prior over target images, which is then integrated 
+                        into a classical variational optimization framework for solving inverse problems. This allows for restoring images from different sources 
+                        using the same trained network. We focus on a line of work that looks for the solution of the restoration task in the encoded - or latent - 
+                        space of a trained generative model. We introduce a variational Bayes framework, VBLE-xz (Variational Bayes Latent Estimation), which enables 
+                        approximating the posterior distribution of the inverse problem within variational autoencoders (VAEs). Furthermore, we adopt compressive VAEs, 
+                        whose lightweight architecture ensures a scalable restoration process while effectively regularizing the inverse problem through their hyperprior. 
+                        Experimental results on satellite images highlight the benefits of VBLE-xz over state-of-the-art deep learning baselines for satellite image 
+                        restoration.</em></p>
+                  </details> 
+            </li>
+
             <li class="wo">
                 <details>
                     <summary>
@@ -250,4 +274,9 @@
     </div>
    
 </body>
+
+<footer>
+    Romain Thoreau - <a href="https://creativecommons.org/licenses/by-nc/2.0/fr/deed.en" target="_blank">CC-BY-NC 2.0</a> - 2025
+</footer>
+
 </html>
