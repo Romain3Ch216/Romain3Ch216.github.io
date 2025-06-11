@@ -59,7 +59,11 @@
                 <a class="invisible" id="comet"></a>
         <section id="bio">
 	    <h2>About me</h2>
-            I am a researcher in machine learning for Earth observation. Currently, I'm working on wildfire simulation as a postdoctoral research fellow at <a href="https://cnes.fr/fr" target="_blank">CNES</a> in collaboration with the <a href="https://spe.universita.corsica/" target="_blank">SPE lab</a> from Corsica University and <a href="https://www.isir.upmc.fr/equipes/mlia/" target="_blank">MLIA lab</a> from Sorbonne University. My research focuses on semi/self-supervised multimodal learning and on hybrid modeling (the combination of physical models with machine learning models).<br> <br>
+            I am a researcher in machine learning for Earth observation. Currently, I'm working on satellite image analysis and wildfire simulation as a 
+		postdoctoral research fellow at <a href="https://cnes.fr/fr" target="_blank">CNES</a> in collaboration with the 
+		<a href="https://spe.universita.corsica/" target="_blank">SPE lab</a> from CNRS - Corsica University and <a href="https://philab.esa.int/" target="_blank">phi-lab</a> 
+		from <a href="https://www.esa.int/" target="_blank">ESA</a>. 
+		My research focuses on semi/self-supervised multimodal learning and on hybrid modeling (the combination of physical models with machine learning models).<br> <br>
 
             I completed my PhD at <a href="https://www.onera.fr/fr" target="_blank">ONERA</a>,
       <a href="https://www.magellium.com/fr/" target="_blank">Magellium</a> and <a href="https://www.isae-supaero.fr/fr/" target="_blank">ISAE-SUPAERO</a> in collaboration with the <a href="https://www.math.univ-toulouse.fr/fr/" target="_blank">Toulouse Mathematics Institute</a> on the semantic segmentation of airborne hyperspectral images for mapping impermeable surfaces in large urban areas. 
@@ -68,6 +72,12 @@
 
         <section class="news">
             <h2>News</h2>
+	<p><strong>March 2025:</strong> For the seventh COMET TSI seminar, we were glad to welcome Emilia Arens, Johannes Dollinger and Damien Robert from the <a href="https://www.spacehub.uzh.ch/en/research-areas/earth-observation/EcoVision-Lab.html" target="_blank">EcoVision Lab</a> of Zurich University
+		for a great talk about Deep Learning and Remote Sensing for Species Distribution Modeling!</p>
+
+<p><strong>January 2025:</strong> For the sixth COMET TSI seminar, we were delighted to welcome Iris Dumeur from <a href="https://www.cesbio.cnrs.fr/" target="_blank">CESBIO</a> for a presentation about self-supervised representation learning of Satellite Image
+Time Series for land surface monitoring!</p>
+		
     <p><strong>December 2024:</strong> For the fifth COMET TSI seminar, we were glad to have a presentation of 
 	    <a href="https://www.linkedin.com/in/olin-geimer/" target="_blank">Olin Geimer</a> (Yale University) and  <a href="https://www.linkedin.com/in/alexander-theus-078b0a232/" target="_blank">Alexander Theus</a> (ETH Zurich) about structural pruning of neural networks via optimal transport!</p>
 	    <p><strong>November 2024:</strong> For the fourth COMET TSI seminar, we had the pleasure to welcome 
@@ -94,10 +104,51 @@
         </section>
 
         <section class="publications">
-            <h2>Publications</h2>
+            <h2>Selected publications</h2>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+	<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="static/img/deflect_1.png" alt="DEFLECT performance" width="300" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <papertitle>Parameter-Efficient Adaptation of Geospatial Foundation Models through Embedding Deflection</papertitle>
+              <br>
+              <strong>R. Thoreau</strong>,
+              V. Marsocci and D. Derksen
+              <br> <br>
+              <i>Submitted to <strong>ICCV 2025</strong>.
+              <br><br>
+	      <a href="https://arxiv.org/pdf/2503.09493", target="_blank">[arXiv]</a>
+              <p></p>
+              <p></p>
+              <p>
+              </p>
+            </td>
+          </tr>
+		
+	<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="static/img/p3vae_exp.png" alt="p3VAE archirecure" width="300" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <papertitle>Physics-informed Variational Autoencoders for Improved Robustness to Environmental Factors of Variation</papertitle>
+              <br>
+              <strong>R. Thoreau</strong>,
+              L. Risser, V. Achard, B. Berthelot and X. Briottet
+              <br> <br>
+              <i>Submitted to <strong>Springer Machine Learning</strong>.
+              <br><br>
+              <a href="https://arxiv.org/abs/2210.10418", target="_blank">[arXiv]</a>
+              <a href="https://github.com/Romain3Ch216/p3VAE/", target="_blank">[code]</a>
+              <p></p>
+              <p></p>
+              <p>
+              </p>
+            </td>
+          </tr>
+		
         <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="static/img/proj.png" alt="Data sets comparison" width="300" style="border-style: none">
@@ -114,27 +165,6 @@
               <a href="https://www.toulouse-hyperspectral-data-set.com/", target="_blank">[data set]</a>
 	      <a href="https://github.com/Romain3Ch216/tlse-experiments/", target="_blank">[code]</a>
 	      <a href="https://arxiv.org/pdf/2311.08863.pdf", target="_blank">[arXiv]</a>
-              <p></p>
-              <p></p>
-              <p>
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="static/img/p3VAE_scheme.png" alt="p3VAE archirecure" width="300" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <papertitle>p3VAE: a physics-integrated generative model. Application to the pixel-wise classification of airborne hyperspectral images</papertitle>
-              <br>
-              <strong>R. Thoreau</strong>,
-              L. Risser, V. Achard, B. Berthelot and X. Briottet
-              <br> <br>
-              <i>Submitted to <strong>Springer Machine Learning</strong>.
-              <br><br>
-              <a href="https://arxiv.org/abs/2210.10418", target="_blank">[arXiv]</a>
-              <a href="https://github.com/Romain3Ch216/p3VAE/", target="_blank">[code]</a>
               <p></p>
               <p></p>
               <p>
@@ -166,76 +196,6 @@
         </tbody>
         </table>
 
-
-        <h2>Conference proceedings</h2>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-        <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="static/img/hier_nomenclature.png" alt="Hierarchical nomenclature" width="300" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <papertitle>Probabilistic Breaking Tie: An Active Learning Strategy To Leverage Class Hierarchy For Impervious Surfaces Classification</papertitle>
-              <br>
-              <strong>R. Thoreau</strong>,
-              V. Achard, L. Risser, B. Berthelot and X. Briottet
-              <br> <br>
-              <i><strong>IEEE WHISPERS 2022</strong>.
-              <br><br>
-              <a href="https://ieeexplore.ieee.org/abstract/document/9955057", target="_blank">[paper]</a>
-              <a href="https://github.com/Romain3Ch216/AL4EO/tree/benchmark", target="_blank">[code]</a>
-              <p></p>
-              <p></p>
-              <p>
-              </p>
-            </td>
-          </tr>
-
-        <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="static/img/scheme.png" alt="Preprocessing illustration" width="300" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-                <papertitle>Active Learning on Large Hyperspectral Datasets: a Preprocessing Method</papertitle>
-              <br>
-              <strong>R. Thoreau</strong>,
-              V. Achard, L. Risser, B. Berthelot and X. Briottet
-              <br> <br>
-              <i><strong>ISPRS Congress 2022</strong>.
-              <br><br>
-              <a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B3-2022/435/2022/", target="_blank">[paper]</a>
-              <a href="https://github.com/Romain3Ch216/AL4EO/tree/benchmark", target="_blank">[code]</a>
-              <p></p>
-              <p></p>
-              <p>
-              </p>
-            </td>
-          </tr>
-
-        <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="static/img/HSI.png" alt="HSI illustration" width="300" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-                <papertitle>Hyperspectral Classification Based on Spectral Indices Learned Through Soft Attention Units</papertitle>
-              <br>
-              <strong>R. Thoreau</strong>,
-              V. Achard, L. Risser, B. Berthelot and X. Briottet
-              <br> <br>
-              <i><strong>IEEE IGARSS 2021</strong>.
-              <br><br>
-              <a href="https://ieeexplore.ieee.org/document/9554256/", target="_blank">[paper]</a>
-              <a href="https://github.com/Romain3Ch216/DeepHyperX", target="_blank">[code]</a>
-              <p></p>
-              <p></p>
-              <p>
-              </p>
-            </td>
-          </tr>
-
-        </tbody>
-    </table>
 
         </section>
 
