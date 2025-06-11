@@ -233,6 +233,10 @@ body {
     margin: 0px;
 }
 
+li + li {
+    margin-top: 6px;
+  }
+
 a {
     color: inherit;
 }
