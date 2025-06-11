@@ -292,6 +292,11 @@ a.invisible {
     left: 0;
 }
 
+p {
+    margin-bottom: 0.1em;
+    margin-top: 0.6em
+}
+
 :target ~section {
     transition: opacity 0.2s ease-out;
     opacity: 0;
