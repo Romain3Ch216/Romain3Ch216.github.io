@@ -314,14 +314,11 @@ p {
 }
 
 #news:target ~.news,
-#research:target ~.research,
-#code:target ~.code,
 #publications:target ~.publications,
 #teaching:target ~.teaching,
-#resume:target ~.resume,
 #about:target ~.about,
 #supervision:target ~.supervision,
-#tutorials:target ~.tutorials
+#milo:target ~.milo
 
 {
     opacity: 1;
