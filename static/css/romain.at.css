@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Navigation bar */
 
 nav {
@@ -227,8 +229,8 @@ h2 {
 
 body {
     background-color: rgb(255, 255, 255,1); 
-    font-family: 'OpenSans';
-    font-size: 1.05em;
+    font-family: 'Open Sans';
+    font-size: 0.95em;
     padding: 0px;
     margin: 0px;
 }
@@ -242,13 +244,21 @@ a {
 }
 
 .navlink, h3 {
-    font-family: 'OpenSansLight';
+    font-family: 'Open Sans';
+	font-weight: 300;
     font-size: 20px;
 }
 
 
-h1, h2 {
-    font-family: 'OpenSansBold';
+h2 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 20px;
 }
 
@@ -355,9 +365,9 @@ a:active, a:focus {
 }
 
 papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 700
+  font-weight: 600
 }
 
 /* Fonts */
