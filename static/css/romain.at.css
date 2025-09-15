@@ -370,21 +370,14 @@ papertitle {
 
 /* Fonts */
 
-@font-face {
-	font-family: 'OpenSans';
-	font-style: normal;
-	font-weight: 200;
-	src: local(OpenSans),
-	     url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('ttf');}
 
-@font-face {
-  font-family: 'OpenSansLight';
-  src: local(OpenSansLight),url('../fonts/static/OpenSans/OpenSans-Light.ttf');
-}
-
-@font-face {
-  font-family: 'OpenSansBold';
-  src: local(OpenSansBold),url('../fonts/static/OpenSans/OpenSans-SemiBold.ttf');
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
